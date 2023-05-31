@@ -1,0 +1,73 @@
+
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, #00ff00, #ffffff);
+              
+              
+        }
+            .contenedor{
+                width: 60%;
+                min-width: 375px;
+                min-height: 500px;  
+            
+                
+
+            }
+                .header{
+                    text-align: center;
+                    padding: 5px;
+                    margin-top: 10px;
+                }
+                .calculadora{
+                    background:linear-gradient(to bottom right,#00ff00, #0000ff, #ffff00);
+                    max-width: 95%;
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-top: 40px;
+                    padding: 5px;
+                    max-height: 600px;
+                    cursor: pointer;
+
+                }
+                    .formulario{
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        grid-template-rows: repeat(4,40px);
+                        grid-gap: 5px;
+                        
+                    }
+                    .bp,.entrada{
+                        border: 1px solid black;
+                        padding: 2px;
+                    }
+                    .p{
+                        font-size: 30px;
+                        text-align: left;
+                    }
+                
+                    .boton{
+                        border-radius: 8px;
+                        width: 150px;
+                        height: 30px;
+                        margin-top: 10px;  
+                        border: 1px solid black;                 
+                    }
+
+                    .footer{
+                        margin-top: 40px;
+                        text-align: center;
+                        font-size: 10px;
+                    }
+
+
+
+    
+                  

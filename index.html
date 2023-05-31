@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Systema Numerico</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header"><h1>Sistema Numérico</h1></div>
+
+        <div class="calculadora">
+            <form class="formulario">
+                <p class="p" id="Decimal">Decimal</p>
+                <input type="number" id="entradaDecimal" size="10"  class="entrada"  >
+                <p class="p" id="Binario">Binario</p>
+               <input type="number" min="0" max="1" class="entrada" id="entradaBinario" >
+                <p class="p" id="Hexa">Hexadecimal</p>
+                <input type="text"  class="entrada" id="entradaHexadecimal" >
+                <p class="p" id="Octal">Octal</p>
+                <input type="number" max="7" min="0" class="entrada" id="entradaOctal" disabled>
+            </form>
+            <Button class="boton" id="boton">Borrar</Button>
+        </div>
+
+        <footer class="footer">
+            <p class="parafo"><H2>Derechos reservado 2023</H2></p>
+            <p class="parafo2"><H2><b>by Juanma</H2></p>
+        </footer>
+
+
+
+        <script src="app.js" type="module"></script>
+
+
+
+    </div>
+</body>
+</html>
