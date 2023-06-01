@@ -6,7 +6,7 @@
     }
         body{
             height: 100vh;
-            display: grid;
+            display: flex;
             justify-content: center;
             align-items: center;
             background: linear-gradient(to bottom right, #00ff00, #ffffff);
@@ -14,12 +14,10 @@
               
         }
             .contenedor{
-                width: auto;
-                min-width: 375px;
-                min-height: 500px;  
-            
+                width: 40%;
+                min-width: 350px;
+                min-height: 500px; 
                 
-
             }
                 .header{
                     text-align: center;
@@ -27,38 +25,39 @@
                     margin-top: 10px;
                 }
                 .calculadora{
+                    min-height: 400px;
                     background:linear-gradient(to bottom right,#00ff00, #0000ff, #ffff00);
-                    max-width: 95%;
-                    margin-right: auto;
-                    margin-left: auto;
-                    margin-top: 40px;
-                    padding: 5px;
-                    max-height: 600px;
-                    cursor: pointer;
-
+                    cursor: pointer;            
                 }
                     .formulario{
+                        min-height: 350px;
                         display: grid;
-                        grid-template-columns: repeat(2,1fr);
-                        grid-template-rows: repeat(4,40px);
-                        grid-gap: 5px;
                         
-                    }
-                    .bp,.entrada{
-                        border: 1px solid black;
-                        padding: 2px;
                     }
                     .p{
                         font-size: 30px;
-                        text-align: left;
+                        margin-right: auto;
+                        margin-left: auto;
+                        display: flex;
+                        align-items: center;
+
+
                     }
+                    input{
+                        display: flex;
+                        width: 300px;
+                        justify-self: center;
+                    }
+        
                 
                     .boton{
+                        margin-left: 10px;
                         border-radius: 8px;
                         width: 150px;
                         height: 30px;
                         margin-top: 10px;  
-                        border: 1px solid black;                 
+                        border: 1px solid black;  
+                        
                     }
 
                     .footer{
@@ -66,6 +65,9 @@
                         text-align: center;
                         font-size: 10px;
                     }
+
+
+
 
 
 
