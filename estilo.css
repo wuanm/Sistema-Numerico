@@ -47,6 +47,10 @@
                         display: flex;
                         width: 300px;
                         justify-self: center;
+                        font-size: 20px;
+                    }
+                    .entrada{
+                        background-color: #ffffff;
                     }
         
                 
@@ -67,6 +71,8 @@
                     }
 
 
+
+    
 
 
 
