@@ -35,7 +35,7 @@ entradaHexadecimal.addEventListener("keyup",function(){
     document.getElementById("entradaDecimal").innerHTML=hexadecimalADecimal(entradaHexadecimal.value);
     entradaDecimal.setAttribute('value',hexadecimalADecimal(entradaHexadecimal.value))
     entradaBinario.setAttribute('value',DecimalBinario(entradaDecimal.value))
-    //entradaBinario.setAttribute('value',binarioDecimal(entradaHexadecimal.value))
+    entradaOctal.setAttribute('value',DecimalAOctal(entradaDecimal.value))
 });
 
 
@@ -44,6 +44,7 @@ entradaHexadecimal.addEventListener("keyup",function(){
 botton.addEventListener("click",function(){
     location.reload()  
 })
+
 
 
 
